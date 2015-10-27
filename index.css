@@ -1,13 +1,14 @@
-#info-box {
+.component-wrapper {
   width: 600px;
   height: 400px;
   margin: 0px auto;
   padding: 20px;
   border-right: 20px solid tomato;
-  border-bottom: 20px solid forestgreen;
+  border-bottom: 20px solid #008C46;
   border-left: 20px solid yellow;
   background-color: aliceblue;
   position: relative;
+  overflow: hidden;
 }
 
 a:hover {
@@ -50,7 +51,7 @@ a {
   font-family: 'Amatic SC', cursive;
 }
 
-.container {
+.app {
   width: 600px;
   height: 600px;
   margin: 5% auto;
@@ -59,8 +60,58 @@ a {
 .footer {
   text-align: right;
   padding-right: 0px;
-  font-size: 16px;
+  font-size: 24px;
   font-family: 'Amatic SC', cursive;
   width: 600px;
-  margin-left: 40px;
+  margin-left: 80px;
+}
+
+.about-me-wrapper {
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  width: 600px;
+  height: 400px;
+  background: #008C46 none repeat scroll 0% 0%;
+  position: absolute;
+  padding: 20px;
+  left: 0px;
+  transition: bottom .75s ease-in-out;
+}
+
+.hide {
+  bottom: -440px;
+}
+
+.show {
+  bottom: 0px;
+}
+
+.section-title {
+  font-size: 26px;
+}
+
+.profile-photo {
+  width: 188px;
+  margin: 10px;
+  border-radius: 10px;
+  float: left;
+}
+
+.down-button {
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: rotate(270deg);
+  margin-bottom: -5px;
+}
+
+.blurb:hover {
+}
+
+.blurb {
+  color: white;
+  margin-top: 20px;
 }
