@@ -17,7 +17,7 @@ window.AboutMe = React.createClass({
           I knew that I enjoyed the type of thinking that comes with being
           a programmer. So, I started teaching myself how to code,
           and enrolled in App Academy, a bootcamp for web development. So far,
-          I've built a number of websites, mini games, and web widgets,
+          I've built a number of websites, mini games, and web widgets, using
           Ruby on Rails, JavaScript, SQL, jQuery, React/Flux.
         </div>
         <div className="down-button" onClick={this.props.handleClick}>{button}</div>
