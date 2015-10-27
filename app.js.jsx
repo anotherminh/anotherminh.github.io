@@ -1,14 +1,20 @@
 window.App = React.createClass({
   getInitialState: function () {
-    return { ShowAboutMe: false };
+    return { ShowAboutMe: false, ShowPixelate: false };
   },
 
   handleClick: function (e) {
-    if (this.state.ShowAboutMe) {
-      this.setState({ ShowAboutMe: false });
+    
+    var buttonClicked = e.currentTarget.getAttribute('value');
+    var currentState = this.state[buttonClicked];
+
+    if (currentState) {
+      this.state[buttonClicked] = false;
     } else {
-      this.setState({ ShowAboutMe: true });
+      this.state[buttonClicked] = true;
     }
+
+    this.forceUpdate();
   },
 
   render: function () {
@@ -16,6 +22,7 @@ window.App = React.createClass({
       <div className="component-wrapper">
         <Menu handleClick={this.handleClick}/>
         <AboutMe show={this.state.ShowAboutMe} handleClick={this.handleClick}/>
+        <Pixelate show={this.state.ShowPixelate} handleClick={this.handleClick}/>
       </div>
     );
   }
