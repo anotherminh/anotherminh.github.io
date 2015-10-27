@@ -21,7 +21,7 @@ window.Projects = React.createClass({
           </a>
           <a className="project-thumb-wrapper" href="https://github.com/anotherminh/mini-keyboard">
             <img className="project-thumb" src="./images/keyboard.png"></img>
-            Mini Keyboard
+            Minhi Keyboard
           </a>
           <a className="project-thumb-wrapper" href="https://github.com/anotherminh/RailsLite">
             <img className="project-thumb" src="./images/rails.png"></img>
