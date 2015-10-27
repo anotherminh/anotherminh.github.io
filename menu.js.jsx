@@ -4,7 +4,11 @@ window.App = React.createClass({
   },
 
   narwhalClickHandle: function () {
-    this.setState({ ShowAboutMe: true });
+    if (this.state.ShowAboutMe) {
+      this.setState({ ShowAboutMe: false });
+    } else {
+      this.setState({ ShowAboutMe: true });
+    }
   },
 
   render: function () {
@@ -13,6 +17,7 @@ window.App = React.createClass({
       return (
         <div>
           About Me goes here!
+          <div onClick={this.narwhalClickHandle}>Back</div>
         </div>
       );
     } else {
