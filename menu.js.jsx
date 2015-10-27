@@ -23,7 +23,7 @@ window.App = React.createClass({
     } else {
       return (
         <div className="thumbs-container">
-          <a href="https://www.pixelates.xyz">
+          <a href="http://www.pixelates.xyz">
             <img className="thumb" src="hover_pixelate_icon.png"/>
           </a>
           <a onClick={this.narwhalClickHandle}>
