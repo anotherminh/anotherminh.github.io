@@ -75,8 +75,10 @@ a {
   position: absolute;
   padding: 20px;
   left: 0px;
-  transition: bottom .75s ease-in-out;
-}
+  -webkit-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  -moz-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  -o-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);}
 
 .hide {
   bottom: -440px;
