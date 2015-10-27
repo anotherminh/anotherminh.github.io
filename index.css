@@ -37,6 +37,11 @@ a:visited {
   width: 100px;
 }
 
+.project-thumb {
+  float: left;
+  width: 120px;
+}
+
 .thumb:hover {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
@@ -58,12 +63,23 @@ a:visited {
 }
 
 .pix-thumbs-container {
-  width: 420px;
+  width: 500px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .pix-thumbs-container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.project-thumbs-container {
+  width: 480px;
+  margin: 40px auto;
+}
+
+.project-thumbs-container:after {
   content: "";
   display: block;
   clear: both;
@@ -143,11 +159,11 @@ a:visited {
 
 .blurb {
   color: white;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .pix-blurb {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 10px;
   color: black;
 }
@@ -202,4 +218,30 @@ a:visited {
 
 .hide-pix {
   left: -640px;
+}
+
+.subtitle {
+  width: 120px;
+  float: left;
+  color: white;
+}
+
+.project-thumb-wrapper {
+  margin: 0px 10px;
+  padding: 10px;
+  width: 120px;
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.project-thumb-wrapper:hover {
+  background-color: #FF927E;
+}
+
+.project-thumb-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
 }
