@@ -1,6 +1,6 @@
 window.AboutMe = React.createClass({
   render: function () {
-    var klass = "about-me-wrapper" ;
+    var klass = "about-me wrapper" ;
     klass += this.props.show ? " show-about" : " hide-about";
     var button = "<<";
 

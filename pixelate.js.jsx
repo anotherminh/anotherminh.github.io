@@ -1,6 +1,6 @@
 window.Pixelate = React.createClass({
   render: function () {
-    var klass = "pixelate-wrapper" ;
+    var klass = "pixelate wrapper" ;
     klass += this.props.show ? " show-pix" : " hide-pix";
     var button = "<<";
 
@@ -10,7 +10,7 @@ window.Pixelate = React.createClass({
           <a href="http://www.pixelates.xyz">Pixelate</a> is a website that makes creating and sharing pixel art fun and easy.
           Notable features include a fast-rendering paintbrush, a paintbucket, and
           the ability to undo changes. Drawings can be downloaded or saved (editable), and
-          can be viewed/liked/commented on by other users. 
+          can be viewed/liked/commented on by other users.
         </div>
 
         <div className="pix-thumbs-container">

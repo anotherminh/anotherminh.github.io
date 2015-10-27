@@ -90,20 +90,6 @@ a:visited {
   margin-left: 80px;
 }
 
-.about-me-wrapper {
-  font-family: 'Coming Soon', cursive;
-  font-size: 17px;
-  width: 600px;
-  height: 400px;
-  background: #008C46 none repeat scroll 0% 0%;
-  position: absolute;
-  padding: 20px;
-  left: 0px;
-  -webkit-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
-  -moz-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
-  -o-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
-  transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);}
-
 .hide-about {
   bottom: -440px;
 }
@@ -137,13 +123,22 @@ a:visited {
   position: absolute;
 }
 
+.button:hover {
+  cursor: pointer;
+  color: blue;
+}
+
 .left {
   color: black;
   left: 0px;
   top: 50%;
 }
 
-.blurb:hover {
+.right {
+  right: 0px;
+  top: 50%;
+  color: black;
+  transform: rotate(180deg);
 }
 
 .blurb {
@@ -157,19 +152,48 @@ a:visited {
   color: black;
 }
 
-.pixelate-wrapper {
+.wrapper {
   font-family: 'Coming Soon', cursive;
   font-size: 17px;
   width: 600px;
   height: 400px;
-  background: yellow none repeat scroll 0% 0%;
   position: absolute;
   padding: 20px;
+}
+
+.about-me {
+  left: 0px;
+  background: #008C46 none repeat scroll 0% 0%;
+  -webkit-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  -moz-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  -o-transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  transition: bottom 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+}
+
+.pixelate {
   top: 0px;
+  background: yellow none repeat scroll 0% 0%;
   -webkit-transition: left 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
   -moz-transition: left 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
   -o-transition: left 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
   transition: left 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+}
+
+.projects {
+  top: 0px;
+  background: tomato none repeat scroll 0% 0%;
+  -webkit-transition: right 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  -moz-transition: right 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  -o-transition: right 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+  transition: right 600ms cubic-bezier(0.535, 0.050, 0.460, 0.980);
+}
+
+.show-projects {
+  right: 0px;
+}
+
+.hide-projects {
+  right: -640px;
 }
 
 .show-pix {
