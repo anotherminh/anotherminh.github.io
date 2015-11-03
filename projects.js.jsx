@@ -29,7 +29,7 @@ window.Projects = React.createClass({
           </a>
           <a className="project-thumb-wrapper" href="http://anotherminh.github.io/SET/">
             <img className="project-thumb" src="./images/set.png"></img>
-            Set
+            Pretty Peppers
           </a>
         </div>
         <div value="ShowProjects" className="right button" onClick={this.props.handleClick}>{button}</div>
