@@ -7,9 +7,9 @@ window.Projects = React.createClass({
     return (
       <div className={klass}>
         <div className="project-thumbs-container">
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/Rent-a-Bench">
-            <img className="project-thumb" src="./images/benchIcon.png"></img>
-            Seat-Finder
+          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/Hug-a-Tree">
+            <img className="project-thumb" src="./images/treeIcon.png"></img>
+            Hug-a-tree
           </a>
           <a className="project-thumb-wrapper" href="https://github.com/anotherminh/minesweeper">
             <img className="project-thumb" src="./images/minesweeper.png"></img>
@@ -19,7 +19,7 @@ window.Projects = React.createClass({
             <img className="project-thumb" src="./images/chess.png"></img>
             Chess
           </a>
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/mini-keyboard">
+          <a className="project-thumb-wrapper" href="https://minhi-keyboard.herokuapp.com/">
             <img className="project-thumb" src="./images/keyboard.png"></img>
             Minhi Keyboard
           </a>
@@ -27,8 +27,8 @@ window.Projects = React.createClass({
             <img className="project-thumb" src="./images/rails.png"></img>
             Minhi Rails
           </a>
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/FlyingSheep">
-            <img className="project-thumb" src="./images/flying-sheep.png"></img>
+          <a className="project-thumb-wrapper" href="http://anotherminh.github.io/SET/">
+            <img className="project-thumb" src="./images/set.png"></img>
             FlyingSheep
           </a>
         </div>
