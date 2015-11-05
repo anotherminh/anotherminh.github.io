@@ -7,30 +7,35 @@ window.Projects = React.createClass({
     return (
       <div className={klass}>
         <div className="project-thumbs-container">
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/Hug-a-Tree">
-            <img className="project-thumb" src="./images/treeIcon.png"></img>
-            Hug-a-tree
-          </a>
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/minesweeper">
-            <img className="project-thumb" src="./images/minesweeper.png"></img>
-            Minesweeper
-          </a>
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/ruby_chess_game">
-            <img className="project-thumb" src="./images/chess.png"></img>
-            Chess
-          </a>
-          <a className="project-thumb-wrapper" href="https://minhi-keyboard.herokuapp.com/">
-            <img className="project-thumb" src="./images/keyboard.png"></img>
-            Minhi Keyboard
-          </a>
-          <a className="project-thumb-wrapper" href="https://github.com/anotherminh/RailsLite">
-            <img className="project-thumb" src="./images/rails.png"></img>
-            Minhi Rails
-          </a>
-          <a className="project-thumb-wrapper" href="http://anotherminh.github.io/SET/">
-            <img className="project-thumb" src="./images/set.png"></img>
-            Pretty Peppers
-          </a>
+
+          <div className="browser">
+            <a className="project-thumb-wrapper" href="https://minhi-keyboard.herokuapp.com/">
+              <div className="project-thumb keyboard"></div>
+              <div className="thumb-title">Minhi Keyboard</div>
+            </a>
+
+            <a className="project-thumb-wrapper" href="http://anotherminh.github.io/SET/">
+              <div className="project-thumb pepper"></div>
+              <div className="thumb-title">Pretty Peppers</div>
+            </a>
+          </div>
+
+          <div className="terminal">
+            <a className="project-thumb-wrapper" href="https://github.com/anotherminh/RailsLite">
+              <div className="project-thumb rails"></div>
+              <div className="thumb-title">Minhi Rails</div>
+            </a>
+
+            <a className="project-thumb-wrapper" href="https://github.com/anotherminh/minesweeper">
+              <div className="project-thumb minesweeper"></div>
+              <div className="thumb-title">Minesweeper</div>
+            </a>
+
+            <a className="project-thumb-wrapper" href="https://github.com/anotherminh/ruby_chess_game">
+              <div className="project-thumb chess"></div>
+                <div className="thumb-title">Chess</div>
+            </a>
+          </div>
         </div>
         <div value="ShowProjects" className="right button" onClick={this.props.handleClick}>{button}</div>
       </div>
