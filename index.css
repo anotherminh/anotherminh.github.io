@@ -28,7 +28,7 @@ a:visited {
 .thumb {
   float: left;
   margin: 0px 30px;
-  width: 125px;
+  width: 130px;
 }
 
 .pix-thumb {
@@ -78,7 +78,7 @@ a:visited {
 }
 
 .thumbs-container {
-  width: 555px;
+  width: 570px;
   position: relative;
   top: 50%;
   margin-right: auto;
