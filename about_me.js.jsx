@@ -15,10 +15,9 @@ window.AboutMe = React.createClass({
            Though my introduction to the field was rather abstract and
           removed from what the majority of computer programmers actually do,
           I knew that I enjoyed the type of thinking that comes with being
-          a programmer.  So, I started teaching myself how to code,
-          and enrolled in App Academy, a bootcamp for web development.  So far,
-          I've built a number of websites, mini games, and web widgets using
-          Ruby on Rails, JavaScript, SQL, jQuery, React/Flux. <a href="./Resume-Minh.pdf">Here's</a> a writeup
+          a programmer. So far, I've built a number of APIs, websites,
+          mini games, and web widgets using Ruby on Rails, Scala,
+          JavaScript, SQL, jQuery, React/Flux/Redux. <a href="./Resume-Minh.pdf">Here's</a> a writeup
           of my (professional) life so far.
         </div>
         <div value="ShowAboutMe" className="down button" onClick={this.props.handleClick}>{button}</div>
