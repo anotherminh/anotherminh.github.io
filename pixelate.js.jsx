@@ -7,7 +7,7 @@ window.Pixelate = React.createClass({
     return (
       <div className={klass}>
         <div className="pix-blurb">
-          <a href="http://www.pixelates.xyz">Pixelate</a> is a website that makes creating and sharing pixel art fun and easy.
+          <a href="http://pixelate.herokuapp.com">Pixelate</a> is a website that makes creating and sharing pixel art fun and easy.
           Notable features include a fast-rendering paintbrush, a paintbucket, and
           the ability to undo changes. Drawings can be downloaded or saved (editable), and
           can be viewed/liked/commented on by other users.
