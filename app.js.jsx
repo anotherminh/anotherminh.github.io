@@ -22,7 +22,6 @@ window.App = React.createClass({
         <Menu handleClick={this.handleClick}/>
         <AboutMe show={this.state.ShowAboutMe} handleClick={this.handleClick}/>
         <Pixelate show={this.state.ShowPixelate} handleClick={this.handleClick}/>
-        <Projects show={this.state.ShowProjects} handleClick={this.handleClick}/>
       </div>
     );
   }

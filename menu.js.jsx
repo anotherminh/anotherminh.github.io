@@ -8,8 +8,8 @@ window.Menu = React.createClass({
         <a value="ShowAboutMe" onClick={this.props.handleClick}>
           <img className="thumb" src="about_me.png"/>
         </a>
-        <a value="ShowProjects" onClick={this.props.handleClick}>
-          <img className="thumb" src="github_icon.png"/>
+        <a value="ShowProjects" href="https://github.com/anotherminh">
+          <img className="thumb" href="https://github.com/anotherminh" src="github_icon.png"/>
         </a>
       </div>
     );
